@@ -1,6 +1,6 @@
 import sys
 from PySide6 import QtWidgets as qtw
-from prod.untitled import Ui_Form
+from untitled import Ui_Form
 from parse_functions import parse_oval, parse_xccdf
 from download_scap_content_functions import apt_install, download_SCAP_content
 from patch_scap_content import patch_SCAP_content

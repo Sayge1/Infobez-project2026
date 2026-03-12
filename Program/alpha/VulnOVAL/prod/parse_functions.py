@@ -125,7 +125,7 @@ def parse_xccdf(file_path):
             res_elem = rr.find("./{*}result")
             result = _text(res_elem)
 
-            if not idref or not result:
+            if not idref or not result or result == "notselected":
                 continue
 
             scan_results.append({
@@ -134,10 +134,6 @@ def parse_xccdf(file_path):
                 "profile": profile_id,
                 "target": target,
             })
-
-
-    if not rules_map:
-        print("В файле не найдены метаданные Rule (Benchmark/Rule). Будут только id/result.")
 
     final_output = []
     for item in scan_results:

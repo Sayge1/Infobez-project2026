@@ -2,7 +2,7 @@ import subprocess
 
 def apt_install(package_name: str):
     try:
-        subprocess.run(["apt", "install", "-y", package_name],check=True,capture_output=True,text=True)
+        subprocess.run(["apt", "reinstall", "-y", package_name],check=True,capture_output=True,text=True)
     except subprocess.CalledProcessError as error:
         stderr = error.stderr
         raise SystemExit(f"{package_name} {stderr}")

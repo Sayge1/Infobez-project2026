@@ -14,7 +14,6 @@ def do_xccdf_scan(system_cpe: str, remediation: int):
                         "--remediate",
                         "/usr/share/xml/scap/ssg/content/ssg-debian13-ds.xml",
                     ],
-                    check=True,
                     capture_output=True,
                     text=True,
                 )
@@ -28,7 +27,6 @@ def do_xccdf_scan(system_cpe: str, remediation: int):
                         "--report", "report_xccdf.html",
                         "/usr/share/xml/scap/ssg/content/ssg-debian13-ds.xml",
                     ],
-                    check=True,
                     capture_output=True,
                     text=True,
                 )
@@ -46,7 +44,6 @@ def do_oval_scan(system_cpe: str):
                     "--report", "report_oval.html",
                     "/usr/share/xml/scap/ssg/content/ssg-debian13-cpe-oval.xml",
                 ],
-                check=True,
                 capture_output=True,
                 text=True,
             )
