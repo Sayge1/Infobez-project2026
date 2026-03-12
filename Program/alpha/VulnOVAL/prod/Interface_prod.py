@@ -3,6 +3,8 @@ from PySide6 import QtWidgets as qtw
 from prod.untitled import Ui_Form
 from parse_functions import parse_oval, parse_xccdf
 from download_scap_content_functions import apt_install, download_SCAP_content
+from patch_scap_content import patch_SCAP_content
+from scan_scap_functions import do_xccdf_scan, do_oval_scan
 class MainWindow(qtw.QWidget, Ui_Form):
     def __init__(self):
         super().__init__()
@@ -11,10 +13,14 @@ class MainWindow(qtw.QWidget, Ui_Form):
         self.bt_XCCDFcheck.clicked.connect(self.XCCDF_check)
         self.bt_OVAL_page.clicked.connect(lambda: self.stackedWidget.setCurrentWidget(self.OVAL_page))
         self.bt_XCCDF_page.clicked.connect(lambda: self.stackedWidget.setCurrentWidget(self.XCCDF_page))
+        self.first_encounter = 0
 
     def OVAL_check(self):
-        download_SCAP_content(self.Cb_chooseos.currentText())
-        file_name = "cve-results.xml"
+        if self.first_encounter == 0:
+            download_SCAP_content(self.Cb_chooseos.currentText())
+            patch_SCAP_content(self.Cb_chooseos.currentText())
+        do_oval_scan(self.Cb_chooseos.currentText())
+        file_name = "results_oval.xml"
         results = parse_oval(file_name)
         for v in results:
             row_position = self.table_OVAL_results.rowCount()
@@ -24,9 +30,11 @@ class MainWindow(qtw.QWidget, Ui_Form):
             self.table_OVAL_results.setItem(row_position, 2, qtw.QTableWidgetItem(v['description']))
 
     def XCCDF_check(self):
-        download_SCAP_content(self.Cb_chooseos_2.currentText())
-
-        file_name = "results.xml"
+        if self.first_encounter == 0:
+            download_SCAP_content(self.Cb_chooseos_2.currentText())
+            patch_SCAP_content(self.Cb_chooseos_2.currentText())
+        do_xccdf_scan(self.Cb_chooseos_2.currentText(), self.checkb_remediation.isChecked())
+        file_name = "results_xccdf.xml"
         results = parse_xccdf(file_name)
         for v in results:
             row_position = self.table_XCCDF_results.rowCount()
