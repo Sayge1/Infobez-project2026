@@ -1,7 +1,8 @@
 import sys
 from PySide6 import QtWidgets as qtw
 from prod.untitled import Ui_Form
-from Functions_with_programs import parse_oval, parse_xccdf
+from parse_functions import parse_oval, parse_xccdf
+from download_scap_content_functions import apt_install, download_SCAP_content
 class MainWindow(qtw.QWidget, Ui_Form):
     def __init__(self):
         super().__init__()
@@ -12,6 +13,7 @@ class MainWindow(qtw.QWidget, Ui_Form):
         self.bt_XCCDF_page.clicked.connect(lambda: self.stackedWidget.setCurrentWidget(self.XCCDF_page))
 
     def OVAL_check(self):
+        download_SCAP_content(self.Cb_chooseos.currentText())
         file_name = "cve-results.xml"
         results = parse_oval(file_name)
         for v in results:
@@ -22,6 +24,8 @@ class MainWindow(qtw.QWidget, Ui_Form):
             self.table_OVAL_results.setItem(row_position, 2, qtw.QTableWidgetItem(v['description']))
 
     def XCCDF_check(self):
+        download_SCAP_content(self.Cb_chooseos_2.currentText())
+
         file_name = "results.xml"
         results = parse_xccdf(file_name)
         for v in results:

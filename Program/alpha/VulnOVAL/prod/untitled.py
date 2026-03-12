@@ -1132,6 +1132,7 @@ class Ui_Form(object):
         self.Cb_chooseos.addItem("")
         self.Cb_chooseos.addItem("")
         self.Cb_chooseos.addItem("")
+        self.Cb_chooseos.addItem("")
         self.Cb_chooseos.setObjectName(u"Cb_chooseos")
 
         self.horizontalLayout_2.addWidget(self.Cb_chooseos)
@@ -1212,6 +1213,7 @@ class Ui_Form(object):
         self.Cb_chooseos_2.addItem("")
         self.Cb_chooseos_2.addItem("")
         self.Cb_chooseos_2.addItem("")
+        self.Cb_chooseos_2.addItem("")
         self.Cb_chooseos_2.setObjectName(u"Cb_chooseos_2")
 
         self.horizontalLayout_4.addWidget(self.Cb_chooseos_2)
@@ -1278,9 +1280,10 @@ class Ui_Form(object):
         self.label_OVAL.setText(QCoreApplication.translate("Form", u"OVAL", None))
         self.label_OS.setText(QCoreApplication.translate("Form", u"\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 OC", None))
         self.Cb_chooseos.setItemText(0, QCoreApplication.translate("Form", u"Debian 11", None))
-        self.Cb_chooseos.setItemText(1, QCoreApplication.translate("Form", u"Debian 12", None))
-        self.Cb_chooseos.setItemText(2, QCoreApplication.translate("Form", u"Rocky Linux 9", None))
-        self.Cb_chooseos.setItemText(3, QCoreApplication.translate("Form", u"RHEL 9", None))
+        self.Cb_chooseos.setItemText(1, QCoreApplication.translate("Form", u"Kali Linux", None))
+        self.Cb_chooseos.setItemText(2, QCoreApplication.translate("Form", u"Debian 12", None))
+        self.Cb_chooseos.setItemText(3, QCoreApplication.translate("Form", u"Rocky Linux 9", None))
+        self.Cb_chooseos.setItemText(4, QCoreApplication.translate("Form", u"RHEL 9", None))
 
         self.bt_OVALcheck.setText(QCoreApplication.translate("Form", u"\u0417\u0430\u043f\u0443\u0441\u0442\u0438\u0442\u044c \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0443 \u043f\u043e OVAL \u0434\u0435\u0444\u0438\u043d\u0438\u0446\u0438\u044f\u043c", None))
         ___qtablewidgetitem = self.table_OVAL_results.horizontalHeaderItem(0)
@@ -1292,9 +1295,10 @@ class Ui_Form(object):
         self.label_XCCDF.setText(QCoreApplication.translate("Form", u"XCCDF", None))
         self.label_OS_2.setText(QCoreApplication.translate("Form", u"\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 OC", None))
         self.Cb_chooseos_2.setItemText(0, QCoreApplication.translate("Form", u"Debian 11", None))
-        self.Cb_chooseos_2.setItemText(1, QCoreApplication.translate("Form", u"Debian 12", None))
-        self.Cb_chooseos_2.setItemText(2, QCoreApplication.translate("Form", u"Rocky Linux 9", None))
-        self.Cb_chooseos_2.setItemText(3, QCoreApplication.translate("Form", u"RHEL 9", None))
+        self.Cb_chooseos_2.setItemText(1, QCoreApplication.translate("Form", u"Kali Linux", None))
+        self.Cb_chooseos_2.setItemText(2, QCoreApplication.translate("Form", u"Debian 12", None))
+        self.Cb_chooseos_2.setItemText(3, QCoreApplication.translate("Form", u"Rocky Linux 9", None))
+        self.Cb_chooseos_2.setItemText(4, QCoreApplication.translate("Form", u"RHEL 9", None))
 
         self.checkb_remediation.setText(QCoreApplication.translate("Form", u"\u0418\u0441\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0435\u0439", None))
         self.bt_XCCDFcheck.setText(QCoreApplication.translate("Form", u"\u0417\u0430\u043f\u0443\u0441\u0442\u0438\u0442\u044c \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0443 \u043f\u043e XCCDF", None))

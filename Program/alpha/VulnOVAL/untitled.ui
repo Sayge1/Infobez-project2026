@@ -1171,6 +1171,11 @@ QSizeGrip
             </item>
             <item>
              <property name="text">
+              <string>Kali Linux</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
               <string>Debian 12</string>
              </property>
             </item>
@@ -1306,6 +1311,11 @@ QSizeGrip
             <item>
              <property name="text">
               <string>Debian 11</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Kali Linux</string>
              </property>
             </item>
             <item>
