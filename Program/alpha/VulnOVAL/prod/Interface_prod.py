@@ -17,7 +17,7 @@ class MainWindow(qtw.QWidget, Ui_Form):
 
     def OVAL_check(self):
         if self.first_encounter == 0:
-	    self.first_encounter = 1
+            self.first_encounter = 1
             download_SCAP_content(self.Cb_chooseos.currentText())
             patch_SCAP_content(self.Cb_chooseos.currentText())
         do_oval_scan(self.Cb_chooseos.currentText())
@@ -32,7 +32,7 @@ class MainWindow(qtw.QWidget, Ui_Form):
 
     def XCCDF_check(self):
         if self.first_encounter == 0:
-	    self.first_encounter = 1
+            self.first_encounter = 1
             download_SCAP_content(self.Cb_chooseos_2.currentText())
             patch_SCAP_content(self.Cb_chooseos_2.currentText())
         do_xccdf_scan(self.Cb_chooseos_2.currentText(), self.checkb_remediation.isChecked())
