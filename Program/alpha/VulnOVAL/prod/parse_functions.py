@@ -4,40 +4,40 @@ import xml.etree.ElementTree as ET
 def parse_oval(file_path):
     try:
         tree = ET.parse(file_path)
-        root = tree.getroot()
+        root = tree.getroot() #начальный парсинг XML
     except Exception as e:
-        print(f"Ошибка открытия XML: {e}")
+        print(e)
         return []
 
-    definitions_map = {}
-    scan_results = []
+    definitions = {} #тут по айди будут храниться названия и описания
+    scan_results = [] #тут по айди будут результаты проверки
 
 
-    for elem in root.findall(".//{*}definition"):
-        oid = elem.get('id')
+    for el in root.findall(".//{*}definition"):
+        id_of_definition = el.get('id')
 
-        metadata = elem.find(".//{*}metadata")
+        metadata = el.find(".//{*}metadata")
         if metadata is not None:
             title = "Unknown"
             description = ""
 
-            title_elem = metadata.find(".//{*}title")
-            if title_elem is not None and title_elem.text:
-                title = title_elem.text
+            title_el = metadata.find(".//{*}title")
+            if title_el is not None and title_el.text:
+                title = title_el.text
 
-            desc_elem = metadata.find(".//{*}description")
-            if desc_elem is not None and desc_elem.text:
-                description = desc_elem.text
+            desc_el = metadata.find(".//{*}description")
+            if desc_el is not None and desc_el.text:
+                description = desc_el.text
 
-            definitions_map[oid] = {
+            definitions[id_of_definition] = {
                 'title': title,
                 'description': description
             }
             continue
 
 
-        res_attr = elem.get('result')
-        def_id_ref = elem.get('definition_id')
+        res_attr = el.get('result') #если в элементе не находится метадата - значит это результат проверки
+        def_id_ref = el.get('definition_id')
 
         if res_attr and def_id_ref:
             scan_results.append({
@@ -46,25 +46,24 @@ def parse_oval(file_path):
             })
 
 
-    final_output = []
+    final_out = []
 
 
-    if not definitions_map:
-        print(
-            "в результатах нет definitions")
+    if not definitions:
+        print("в результатах нет definitions")
 
     for item in scan_results:
         did = item['id']
-        meta = definitions_map.get(did, {})
+        meta = definitions.get(did, {}) #пробуем взять по id definition информацию, если не получается - пустой словарь
 
-        final_output.append({
+        final_out.append({
             'id': did,
             'cve': meta.get('title', 'N/A'),
             'result': item['result'],
-            'description': meta.get('description', '').replace('\n', ' ').strip()
+            'description': meta.get('description', '').replace('\n', ' ').strip() #заменяем перенос строк на пробелы и убираем их по краям
         })
 
-    return final_output
+    return final_out
 
 def parse_xccdf(file_path):
     try:
