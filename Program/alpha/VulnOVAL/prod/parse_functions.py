@@ -45,9 +45,7 @@ def parse_oval(file_path):
                 'result': res_attr
             })
 
-
     final_out = []
-
 
     if not definitions:
         print("в результатах нет definitions")
