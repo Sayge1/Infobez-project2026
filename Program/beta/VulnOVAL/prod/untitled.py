@@ -16,9 +16,9 @@ from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
     QImage, QKeySequence, QLinearGradient, QPainter,
     QPalette, QPixmap, QRadialGradient, QTransform)
 from PySide6.QtWidgets import (QApplication, QCheckBox, QComboBox, QGridLayout,
-    QHBoxLayout, QHeaderView, QLabel, QPushButton,
-    QSizePolicy, QSpacerItem, QStackedWidget, QTableWidget,
-    QTableWidgetItem, QVBoxLayout, QWidget)
+    QHBoxLayout, QHeaderView, QLabel, QPlainTextEdit,
+    QPushButton, QSizePolicy, QSpacerItem, QStackedWidget,
+    QTableWidget, QTableWidgetItem, QVBoxLayout, QWidget)
 
 class Ui_Form(object):
     def setupUi(self, Form):
@@ -1143,6 +1143,9 @@ class Ui_Form(object):
 
         self.bt_OVALcheck = QPushButton(self.Widget_withOVALchoose)
         self.bt_OVALcheck.setObjectName(u"bt_OVALcheck")
+        font4 = QFont()
+        font4.setPointSize(8)
+        self.bt_OVALcheck.setFont(font4)
 
         self.horizontalLayout_2.addWidget(self.bt_OVALcheck)
 
@@ -1218,9 +1221,61 @@ class Ui_Form(object):
 
         self.horizontalLayout_4.addWidget(self.Cb_chooseos_2)
 
-        self.horizontalSpacer_6 = QSpacerItem(368, 20, QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Minimum)
+        self.ssh_checkbox = QCheckBox(self.Widget_withXCCDFchoose)
+        self.ssh_checkbox.setObjectName(u"ssh_checkbox")
 
-        self.horizontalLayout_4.addItem(self.horizontalSpacer_6)
+        self.horizontalLayout_4.addWidget(self.ssh_checkbox)
+
+        self.label_2 = QLabel(self.Widget_withXCCDFchoose)
+        self.label_2.setObjectName(u"label_2")
+
+        self.horizontalLayout_4.addWidget(self.label_2)
+
+        self.login_edit = QPlainTextEdit(self.Widget_withXCCDFchoose)
+        self.login_edit.setObjectName(u"login_edit")
+        sizePolicy1 = QSizePolicy(QSizePolicy.Policy.Ignored, QSizePolicy.Policy.Ignored)
+        sizePolicy1.setHorizontalStretch(0)
+        sizePolicy1.setVerticalStretch(0)
+        sizePolicy1.setHeightForWidth(self.login_edit.sizePolicy().hasHeightForWidth())
+        self.login_edit.setSizePolicy(sizePolicy1)
+
+        self.horizontalLayout_4.addWidget(self.login_edit)
+
+        self.label_3 = QLabel(self.Widget_withXCCDFchoose)
+        self.label_3.setObjectName(u"label_3")
+
+        self.horizontalLayout_4.addWidget(self.label_3)
+
+        self.pass_edit = QPlainTextEdit(self.Widget_withXCCDFchoose)
+        self.pass_edit.setObjectName(u"pass_edit")
+        sizePolicy1.setHeightForWidth(self.pass_edit.sizePolicy().hasHeightForWidth())
+        self.pass_edit.setSizePolicy(sizePolicy1)
+
+        self.horizontalLayout_4.addWidget(self.pass_edit)
+
+        self.label_4 = QLabel(self.Widget_withXCCDFchoose)
+        self.label_4.setObjectName(u"label_4")
+
+        self.horizontalLayout_4.addWidget(self.label_4)
+
+        self.ip_edit = QPlainTextEdit(self.Widget_withXCCDFchoose)
+        self.ip_edit.setObjectName(u"ip_edit")
+        sizePolicy1.setHeightForWidth(self.ip_edit.sizePolicy().hasHeightForWidth())
+        self.ip_edit.setSizePolicy(sizePolicy1)
+
+        self.horizontalLayout_4.addWidget(self.ip_edit)
+
+        self.label_5 = QLabel(self.Widget_withXCCDFchoose)
+        self.label_5.setObjectName(u"label_5")
+
+        self.horizontalLayout_4.addWidget(self.label_5)
+
+        self.port_edit = QPlainTextEdit(self.Widget_withXCCDFchoose)
+        self.port_edit.setObjectName(u"port_edit")
+        sizePolicy1.setHeightForWidth(self.port_edit.sizePolicy().hasHeightForWidth())
+        self.port_edit.setSizePolicy(sizePolicy1)
+
+        self.horizontalLayout_4.addWidget(self.port_edit)
 
         self.checkb_remediation = QCheckBox(self.Widget_withXCCDFchoose)
         self.checkb_remediation.setObjectName(u"checkb_remediation")
@@ -1229,13 +1284,23 @@ class Ui_Form(object):
 
         self.bt_XCCDFcheck = QPushButton(self.Widget_withXCCDFchoose)
         self.bt_XCCDFcheck.setObjectName(u"bt_XCCDFcheck")
+        self.bt_XCCDFcheck.setFont(font4)
 
         self.horizontalLayout_4.addWidget(self.bt_XCCDFcheck)
 
         self.horizontalLayout_4.setStretch(0, 1)
-        self.horizontalLayout_4.setStretch(1, 4)
-        self.horizontalLayout_4.setStretch(2, 8)
-        self.horizontalLayout_4.setStretch(4, 4)
+        self.horizontalLayout_4.setStretch(1, 2)
+        self.horizontalLayout_4.setStretch(2, 1)
+        self.horizontalLayout_4.setStretch(3, 1)
+        self.horizontalLayout_4.setStretch(4, 5)
+        self.horizontalLayout_4.setStretch(5, 1)
+        self.horizontalLayout_4.setStretch(6, 5)
+        self.horizontalLayout_4.setStretch(7, 1)
+        self.horizontalLayout_4.setStretch(8, 5)
+        self.horizontalLayout_4.setStretch(9, 1)
+        self.horizontalLayout_4.setStretch(10, 5)
+        self.horizontalLayout_4.setStretch(11, 8)
+        self.horizontalLayout_4.setStretch(12, 11)
 
         self.verticalLayout_3.addWidget(self.Widget_withXCCDFchoose)
 
@@ -1300,6 +1365,11 @@ class Ui_Form(object):
         self.Cb_chooseos_2.setItemText(3, QCoreApplication.translate("Form", u"Rocky Linux 9", None))
         self.Cb_chooseos_2.setItemText(4, QCoreApplication.translate("Form", u"RHEL 9", None))
 
+        self.ssh_checkbox.setText(QCoreApplication.translate("Form", u"ssh", None))
+        self.label_2.setText(QCoreApplication.translate("Form", u"login", None))
+        self.label_3.setText(QCoreApplication.translate("Form", u"pass", None))
+        self.label_4.setText(QCoreApplication.translate("Form", u"IP", None))
+        self.label_5.setText(QCoreApplication.translate("Form", u"port", None))
         self.checkb_remediation.setText(QCoreApplication.translate("Form", u"\u0418\u0441\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u0443\u044f\u0437\u0432\u0438\u043c\u043e\u0441\u0442\u0435\u0439", None))
         self.bt_XCCDFcheck.setText(QCoreApplication.translate("Form", u"\u0417\u0430\u043f\u0443\u0441\u0442\u0438\u0442\u044c \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0443 \u043f\u043e XCCDF", None))
         ___qtablewidgetitem3 = self.table_XCCDF_results.horizontalHeaderItem(0)

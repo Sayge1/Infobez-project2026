@@ -1,10 +1,15 @@
 import sys
+from pathlib import Path
+import shlex
+import paramiko
 from PySide6 import QtWidgets as qtw
-from untitled import Ui_Form
+from prod.untitled import Ui_Form
 from parse_functions import parse_oval, parse_xccdf
-from download_scap_content_functions import apt_install, download_SCAP_content
+from download_scap_content_functions import download_SCAP_content
 from patch_scap_content import patch_SCAP_content
 from scan_scap_functions import do_xccdf_scan, do_oval_scan
+from scan_virtual import virtual_check,run_ssh
+
 class MainWindow(qtw.QWidget, Ui_Form):
     def __init__(self):
         super().__init__()
@@ -31,11 +36,14 @@ class MainWindow(qtw.QWidget, Ui_Form):
             self.table_OVAL_results.setItem(row_position, 2, qtw.QTableWidgetItem(v['description']))
 
     def XCCDF_check(self):
-        if self.first_encounter == 0:
-            self.first_encounter = 1
-            download_SCAP_content(self.Cb_chooseos_2.currentText())
-            patch_SCAP_content(self.Cb_chooseos_2.currentText())
-        do_xccdf_scan(self.Cb_chooseos_2.currentText(), self.checkb_remediation.isChecked())
+        if self.ssh_checkbox.isChecked():
+            virtual_check(self.login_edit.toPlainText().strip(), self.pass_edit.toPlainText().strip(), self.ip_edit.toPlainText().strip(), self.port_edit.toPlainText().strip())
+        else:
+            if self.first_encounter == 0:
+                self.first_encounter = 1
+                download_SCAP_content(self.Cb_chooseos_2.currentText())
+                patch_SCAP_content(self.Cb_chooseos_2.currentText())
+            do_xccdf_scan(self.Cb_chooseos_2.currentText(), self.checkb_remediation.isChecked())
         file_name = "results_xccdf.xml"
         results = parse_xccdf(file_name)
         for v in results:

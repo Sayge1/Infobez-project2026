@@ -1206,6 +1206,11 @@ QSizeGrip
           </item>
           <item>
            <widget class="QPushButton" name="bt_OVALcheck">
+            <property name="font">
+             <font>
+              <pointsize>8</pointsize>
+             </font>
+            </property>
             <property name="text">
              <string>Запустить проверку по OVAL дефинициям</string>
             </property>
@@ -1293,7 +1298,7 @@ QSizeGrip
        </item>
        <item>
         <widget class="QWidget" name="Widget_withXCCDFchoose" native="true">
-         <layout class="QHBoxLayout" name="horizontalLayout_4" stretch="1,4,8,0,4">
+         <layout class="QHBoxLayout" name="horizontalLayout_4" stretch="1,2,1,1,5,1,5,1,5,1,5,8,11">
           <item>
            <widget class="QLabel" name="label_OS_2">
             <property name="font">
@@ -1336,17 +1341,79 @@ QSizeGrip
            </widget>
           </item>
           <item>
-           <spacer name="horizontalSpacer_6">
-            <property name="orientation">
-             <enum>Qt::Orientation::Horizontal</enum>
+           <widget class="QCheckBox" name="ssh_checkbox">
+            <property name="text">
+             <string>ssh</string>
             </property>
-            <property name="sizeHint" stdset="0">
-             <size>
-              <width>368</width>
-              <height>20</height>
-             </size>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_2">
+            <property name="text">
+             <string>login</string>
             </property>
-           </spacer>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPlainTextEdit" name="login_edit">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_3">
+            <property name="text">
+             <string>pass</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPlainTextEdit" name="pass_edit">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_4">
+            <property name="text">
+             <string>IP</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPlainTextEdit" name="ip_edit">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_5">
+            <property name="text">
+             <string>port</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPlainTextEdit" name="port_edit">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+           </widget>
           </item>
           <item>
            <widget class="QCheckBox" name="checkb_remediation">
@@ -1357,6 +1424,11 @@ QSizeGrip
           </item>
           <item>
            <widget class="QPushButton" name="bt_XCCDFcheck">
+            <property name="font">
+             <font>
+              <pointsize>8</pointsize>
+             </font>
+            </property>
             <property name="text">
              <string>Запустить проверку по XCCDF</string>
             </property>
