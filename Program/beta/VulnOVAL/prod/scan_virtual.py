@@ -1,38 +1,19 @@
 from pathlib import Path
 import shlex
-
 import paramiko
 
-
-LOGIN = "kali"
-PASSWORD = "kali"
-IP = "127.0.0.1"
-SSH_PORT = 2222
-
-REMOTE_XML = "results_xccdf.xml"
-REMOTE_DATASTREAM = "/usr/share/xml/scap/ssg/content/ssg-debian13-ds.xml"
-REMOTE_PROFILE = "xccdf_org.ssgproject.content_profile_standard"
-
-
-def run_ssh(ssh, password, command, use_sudo=False, allowed_codes=(0,)):
+remote_xml = "results_xccdf.xml"
+remote_datastream = "/usr/share/xml/scap/ssg/content/ssg-debian13-ds.xml"
+remote_profile = "xccdf_org.ssgproject.content_profile_standard"
+def run_ssh(ssh, password, command, use_sudo=False):
     if use_sudo:
         command = f"echo {shlex.quote(password)} | sudo -S -p '' bash -lc {shlex.quote(command)}"
 
     _, stdout, stderr = ssh.exec_command(command, get_pty=True)
-    code = stdout.channel.recv_exit_status()
     out = stdout.read().decode("utf-8", errors="replace")
-    err = stderr.read().decode("utf-8", errors="replace")
-
-    if code not in allowed_codes:
-        raise RuntimeError(f"\nCOMMAND: {command}\nCODE: {code}\nSTDOUT:\n{out}\nSTDERR:\n{err}")
 
     return out
-
-
 def virtual_check(login, password, ip, port):
-    if not login or not password or not ip or not port:
-        raise ValueError("Передай login, password, ip и port")
-
     port = int(port)
 
     ssh = paramiko.SSHClient()
@@ -70,18 +51,17 @@ def virtual_check(login, password, ip, port):
                 [
                     "oscap xccdf eval",
                     "--skip-signature-validation",
-                    f"--profile {REMOTE_PROFILE}",
-                    f"--results {remote_dir}/{REMOTE_XML}",
-                    REMOTE_DATASTREAM,
+                    f"--profile {remote_profile}",
+                    f"--results {remote_dir}/{remote_xml}",
+                    remote_datastream,
                 ]
             ),
             use_sudo=True,
-            allowed_codes=(0, 2),
         )
 
-        local_xml = Path(REMOTE_XML)
+        local_xml = Path(remote_xml)
         with ssh.open_sftp() as sftp:
-            sftp.get(f"{remote_dir}/{REMOTE_XML}", str(local_xml))
+            sftp.get(f"{remote_dir}/{remote_xml}", str(local_xml))
 
     finally:
         ssh.close()

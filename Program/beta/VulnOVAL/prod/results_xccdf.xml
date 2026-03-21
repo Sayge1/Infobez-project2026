@@ -89601,7 +89601,7 @@ fi
       </Group>
     </Group>
   </Group>
-  <TestResult id="xccdf_org.open-scap_testresult_xccdf_org.ssgproject.content_profile_standard" start-time="2026-03-20T16:40:00-05:00" end-time="2026-03-20T16:40:04-05:00" version="0.1.79" test-system="cpe:/a:redhat:openscap:1.4.3">
+  <TestResult id="xccdf_org.open-scap_testresult_xccdf_org.ssgproject.content_profile_standard" start-time="2026-03-21T16:38:42-05:00" end-time="2026-03-21T16:38:47-05:00" version="0.1.79" test-system="cpe:/a:redhat:openscap:1.4.3">
     <benchmark href="/usr/share/xml/scap/ssg/content/ssg-debian13-ds.xml" id="xccdf_org.ssgproject.content_benchmark_DEBIAN-13"/>
     <title>OSCAP Scan Result</title>
     <identity authenticated="false" privileged="false">kali</identity>
@@ -89622,8 +89622,8 @@ fi
       <fact name="urn:xccdf:fact:asset:identifier:mac" type="string">00:00:00:00:00:00</fact>
       <fact name="urn:xccdf:fact:ethernet:MAC" type="string">08:00:27:1F:B7:26</fact>
       <fact name="urn:xccdf:fact:asset:identifier:mac" type="string">08:00:27:1F:B7:26</fact>
-      <fact name="urn:xccdf:fact:ethernet:MAC" type="string">02:42:06:67:56:CB</fact>
-      <fact name="urn:xccdf:fact:asset:identifier:mac" type="string">02:42:06:67:56:CB</fact>
+      <fact name="urn:xccdf:fact:ethernet:MAC" type="string">02:42:A3:E3:C7:39</fact>
+      <fact name="urn:xccdf:fact:asset:identifier:mac" type="string">02:42:A3:E3:C7:39</fact>
       <fact name="urn:xccdf:fact:asset:identifier:ipv4" type="string">127.0.0.1</fact>
       <fact name="urn:xccdf:fact:asset:identifier:ipv4" type="string">10.0.2.15</fact>
       <fact name="urn:xccdf:fact:asset:identifier:ipv4" type="string">172.17.0.1</fact>
@@ -89718,1168 +89718,1168 @@ fi
     <set-value idref="xccdf_org.ssgproject.content_value_sshd_idle_timeout_value">300</set-value>
     <set-value idref="xccdf_org.ssgproject.content_value_sshd_required">0</set-value>
     <set-value idref="xccdf_org.ssgproject.content_value_var_sshd_set_keepalive">1</set-value>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_prefer_64bit_os" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_prefer_64bit_os" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_package_aide_installed" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_package_aide_installed" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_aide_build_database" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_aide_build_database" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_aide_periodic_checking_systemd_timer" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_aide_periodic_checking_systemd_timer" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_aide_periodic_cron_checking" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_aide_periodic_cron_checking" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_aide_scan_notification" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_aide_scan_notification" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_aide_verify_acls" role="full" time="2026-03-20T16:40:00-05:00" severity="low" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_aide_verify_acls" role="full" time="2026-03-21T16:38:42-05:00" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_aide_verify_ext_attributes" role="full" time="2026-03-20T16:40:00-05:00" severity="low" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_aide_verify_ext_attributes" role="full" time="2026-03-21T16:38:42-05:00" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_partition_for_boot" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_partition_for_boot" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_partition_for_home" role="full" time="2026-03-20T16:40:00-05:00" severity="low" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_partition_for_home" role="full" time="2026-03-21T16:38:42-05:00" severity="low" weight="1.000000">
       <result>fail</result>
       <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
         <check-content-ref name="oval:ssg-partition_for_home:def:1" href="ssg-debian13-oval.xml"/>
       </check>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_partition_for_opt" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_partition_for_opt" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_partition_for_srv" role="full" time="2026-03-20T16:40:00-05:00" severity="unknown" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_partition_for_srv" role="full" time="2026-03-21T16:38:42-05:00" severity="unknown" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_partition_for_tmp" role="full" time="2026-03-20T16:40:00-05:00" severity="low" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_partition_for_tmp" role="full" time="2026-03-21T16:38:42-05:00" severity="low" weight="1.000000">
       <result>pass</result>
       <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
         <check-content-ref name="oval:ssg-partition_for_tmp:def:1" href="ssg-debian13-oval.xml"/>
       </check>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_partition_for_usr" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_partition_for_usr" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_partition_for_var" role="full" time="2026-03-20T16:40:00-05:00" severity="low" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_partition_for_var" role="full" time="2026-03-21T16:38:42-05:00" severity="low" weight="1.000000">
       <result>fail</result>
       <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
         <check-content-ref name="oval:ssg-partition_for_var:def:1" href="ssg-debian13-oval.xml"/>
       </check>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_partition_for_var_log" role="full" time="2026-03-20T16:40:00-05:00" severity="low" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_partition_for_var_log" role="full" time="2026-03-21T16:38:42-05:00" severity="low" weight="1.000000">
       <result>fail</result>
       <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
         <check-content-ref name="oval:ssg-partition_for_var_log:def:1" href="ssg-debian13-oval.xml"/>
       </check>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_partition_for_var_log_audit" role="full" time="2026-03-20T16:40:00-05:00" severity="low" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_partition_for_var_log_audit" role="full" time="2026-03-21T16:38:42-05:00" severity="low" weight="1.000000">
       <result>fail</result>
       <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
         <check-content-ref name="oval:ssg-partition_for_var_log_audit:def:1" href="ssg-debian13-oval.xml"/>
       </check>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_partition_for_var_tmp" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_partition_for_var_tmp" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_systemd_tmp_mount_enabled" role="full" time="2026-03-20T16:40:00-05:00" severity="low" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_systemd_tmp_mount_enabled" role="full" time="2026-03-21T16:38:42-05:00" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_package_sudo_installed" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_package_sudo_installed" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_directory_groupowner_etc_sudoersd" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_directory_groupowner_etc_sudoersd" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_directory_owner_etc_sudoersd" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_directory_owner_etc_sudoersd" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_directory_permissions_etc_sudoersd" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_directory_permissions_etc_sudoersd" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_groupowner_etc_sudoers" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_groupowner_etc_sudoers" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_owner_etc_sudoers" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_owner_etc_sudoers" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_permissions_etc_sudoers" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_permissions_etc_sudoers" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_permissions_sudo" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_permissions_sudo" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sudo_add_env_reset" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sudo_add_env_reset" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sudo_add_ignore_dot" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sudo_add_ignore_dot" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sudo_add_noexec" role="full" time="2026-03-20T16:40:00-05:00" severity="high" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sudo_add_noexec" role="full" time="2026-03-21T16:38:42-05:00" severity="high" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sudo_add_requiretty" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sudo_add_requiretty" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sudo_add_umask" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sudo_add_umask" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sudo_add_use_pty" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sudo_add_use_pty" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sudo_dedicated_group" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sudo_dedicated_group" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sudoers_explicit_command_args" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sudoers_explicit_command_args" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sudoers_no_command_negation" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sudoers_no_command_negation" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sudoers_no_root_target" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sudoers_no_root_target" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_security_patches_up_to_date" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_security_patches_up_to_date" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_package_pam_pwquality_installed" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_package_pam_pwquality_installed" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_accounts_password_pam_unix_remember" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_accounts_password_pam_unix_remember" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_accounts_passwords_pam_faillock_deny" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_accounts_passwords_pam_faillock_deny" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_accounts_passwords_pam_faillock_deny_root" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_accounts_passwords_pam_faillock_deny_root" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_accounts_passwords_pam_faillock_interval" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_accounts_passwords_pam_faillock_interval" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_accounts_passwords_pam_faillock_unlock_time" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_accounts_passwords_pam_faillock_unlock_time" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_accounts_password_pam_dcredit" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_accounts_password_pam_dcredit" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_accounts_password_pam_lcredit" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_accounts_password_pam_lcredit" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_accounts_password_pam_minclass" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_accounts_password_pam_minclass" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_accounts_password_pam_minlen" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_accounts_password_pam_minlen" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_accounts_password_pam_ocredit" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_accounts_password_pam_ocredit" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_accounts_password_pam_retry" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_accounts_password_pam_retry" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_accounts_password_pam_ucredit" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_accounts_password_pam_ucredit" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_set_password_hashing_algorithm_logindefs" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_set_password_hashing_algorithm_logindefs" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_logind_session_timeout" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_logind_session_timeout" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_accounts_password_set_max_life_root" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_accounts_password_set_max_life_root" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_accounts_password_pam_unix_rounds_password_auth" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_accounts_password_pam_unix_rounds_password_auth" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_no_direct_root_logins" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_no_direct_root_logins" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_accounts_tmout" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_accounts_tmout" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_accounts_user_dot_group_ownership" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_accounts_user_dot_group_ownership" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_accounts_user_dot_user_ownership" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_accounts_user_dot_user_ownership" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_accounts_users_home_files_groupownership" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_accounts_users_home_files_groupownership" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_accounts_users_home_files_ownership" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_accounts_users_home_files_ownership" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_accounts_users_home_files_permissions" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_accounts_users_home_files_permissions" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_permission_user_init_files" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_permission_user_init_files" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_accounts_umask_etc_bashrc" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_accounts_umask_etc_bashrc" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_accounts_umask_etc_login_defs" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_accounts_umask_etc_login_defs" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_accounts_umask_etc_profile" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_accounts_umask_etc_profile" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_package_apparmor_installed" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_package_apparmor_installed" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_package_pam_apparmor_installed" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_package_pam_apparmor_installed" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_all_apparmor_profiles_enforced" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_all_apparmor_profiles_enforced" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_apparmor_configured" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_apparmor_configured" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_grub2_enable_apparmor" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_grub2_enable_apparmor" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_grub2_enable_iommu_force" role="full" time="2026-03-20T16:40:00-05:00" severity="unknown" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_grub2_enable_iommu_force" role="full" time="2026-03-21T16:38:42-05:00" severity="unknown" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_grub2_l1tf_argument" role="full" time="2026-03-20T16:40:00-05:00" severity="high" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_grub2_l1tf_argument" role="full" time="2026-03-21T16:38:42-05:00" severity="high" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_grub2_mce_argument" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_grub2_mce_argument" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_grub2_mds_argument" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_grub2_mds_argument" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_grub2_nosmap_argument_absent" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_grub2_nosmap_argument_absent" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_grub2_nosmep_argument_absent" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_grub2_nosmep_argument_absent" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_grub2_page_alloc_shuffle_argument" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_grub2_page_alloc_shuffle_argument" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_grub2_pti_argument" role="full" time="2026-03-20T16:40:00-05:00" severity="low" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_grub2_pti_argument" role="full" time="2026-03-21T16:38:42-05:00" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_grub2_rng_core_default_quality_argument" role="full" time="2026-03-20T16:40:00-05:00" severity="low" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_grub2_rng_core_default_quality_argument" role="full" time="2026-03-21T16:38:42-05:00" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_grub2_slab_nomerge_argument" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_grub2_slab_nomerge_argument" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_grub2_spec_store_bypass_disable_argument" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_grub2_spec_store_bypass_disable_argument" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_grub2_spectre_v2_argument" role="full" time="2026-03-20T16:40:00-05:00" severity="high" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_grub2_spectre_v2_argument" role="full" time="2026-03-21T16:38:42-05:00" severity="high" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_groupowner_grub2_cfg" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_groupowner_grub2_cfg" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_groupowner_user_cfg" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_groupowner_user_cfg" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_owner_grub2_cfg" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_owner_grub2_cfg" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_owner_user_cfg" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_owner_user_cfg" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_permissions_grub2_cfg" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_permissions_grub2_cfg" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_permissions_user_cfg" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_permissions_user_cfg" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_grub2_password" role="full" time="2026-03-20T16:40:00-05:00" severity="high" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_grub2_password" role="full" time="2026-03-21T16:38:42-05:00" severity="high" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_groupowner_efi_grub2_cfg" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_groupowner_efi_grub2_cfg" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_groupowner_efi_user_cfg" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_groupowner_efi_user_cfg" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_owner_efi_grub2_cfg" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_owner_efi_grub2_cfg" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_owner_efi_user_cfg" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_owner_efi_user_cfg" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_permissions_efi_grub2_cfg" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_permissions_efi_grub2_cfg" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_permissions_efi_user_cfg" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_permissions_efi_user_cfg" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_grub2_uefi_password" role="full" time="2026-03-20T16:40:00-05:00" severity="high" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_grub2_uefi_password" role="full" time="2026-03-21T16:38:42-05:00" severity="high" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_acpi_custom_method" role="full" time="2026-03-20T16:40:00-05:00" severity="low" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_acpi_custom_method" role="full" time="2026-03-21T16:38:42-05:00" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_arm64_sw_ttbr0_pan" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_arm64_sw_ttbr0_pan" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_binfmt_misc" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_binfmt_misc" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_bug" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_bug" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_bug_on_data_corruption" role="full" time="2026-03-20T16:40:00-05:00" severity="low" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_bug_on_data_corruption" role="full" time="2026-03-21T16:38:42-05:00" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_compat_brk" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_compat_brk" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_compat_vdso" role="full" time="2026-03-20T16:40:00-05:00" severity="low" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_compat_vdso" role="full" time="2026-03-21T16:38:42-05:00" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_debug_credentials" role="full" time="2026-03-20T16:40:00-05:00" severity="low" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_debug_credentials" role="full" time="2026-03-21T16:38:42-05:00" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_debug_fs" role="full" time="2026-03-20T16:40:00-05:00" severity="low" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_debug_fs" role="full" time="2026-03-21T16:38:42-05:00" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_debug_list" role="full" time="2026-03-20T16:40:00-05:00" severity="low" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_debug_list" role="full" time="2026-03-21T16:38:42-05:00" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_debug_notifiers" role="full" time="2026-03-20T16:40:00-05:00" severity="low" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_debug_notifiers" role="full" time="2026-03-21T16:38:42-05:00" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_debug_sg" role="full" time="2026-03-20T16:40:00-05:00" severity="low" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_debug_sg" role="full" time="2026-03-21T16:38:42-05:00" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_debug_wx" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_debug_wx" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_default_mmap_min_addr" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_default_mmap_min_addr" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_devkmem" role="full" time="2026-03-20T16:40:00-05:00" severity="low" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_devkmem" role="full" time="2026-03-21T16:38:42-05:00" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_fortify_source" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_fortify_source" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_hardened_usercopy" role="full" time="2026-03-20T16:40:00-05:00" severity="high" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_hardened_usercopy" role="full" time="2026-03-21T16:38:42-05:00" severity="high" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_hardened_usercopy_fallback" role="full" time="2026-03-20T16:40:00-05:00" severity="high" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_hardened_usercopy_fallback" role="full" time="2026-03-21T16:38:42-05:00" severity="high" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_hibernation" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_hibernation" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_ia32_emulation" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_ia32_emulation" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_kexec" role="full" time="2026-03-20T16:40:00-05:00" severity="low" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_kexec" role="full" time="2026-03-21T16:38:42-05:00" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_legacy_ptys" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_legacy_ptys" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_legacy_vsyscall_emulate" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_legacy_vsyscall_emulate" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_legacy_vsyscall_none" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_legacy_vsyscall_none" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_legacy_vsyscall_xonly" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_legacy_vsyscall_xonly" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_modify_ldt_syscall" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_modify_ldt_syscall" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_module_sig" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_module_sig" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_module_sig_all" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_module_sig_all" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_module_sig_force" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_module_sig_force" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_module_sig_hash" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_module_sig_hash" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_module_sig_key" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_module_sig_key" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_module_sig_sha512" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_module_sig_sha512" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_page_poisoning" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_page_poisoning" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_page_poisoning_no_sanity" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_page_poisoning_no_sanity" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_page_poisoning_zero" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_page_poisoning_zero" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_page_table_isolation" role="full" time="2026-03-20T16:40:00-05:00" severity="high" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_page_table_isolation" role="full" time="2026-03-21T16:38:42-05:00" severity="high" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_panic_on_oops" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_panic_on_oops" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_panic_timeout" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_panic_timeout" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_proc_kcore" role="full" time="2026-03-20T16:40:00-05:00" severity="low" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_proc_kcore" role="full" time="2026-03-21T16:38:42-05:00" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_randomize_base" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_randomize_base" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_randomize_memory" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_randomize_memory" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_refcount_full" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_refcount_full" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_retpoline" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_retpoline" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_sched_stack_end_check" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_sched_stack_end_check" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_seccomp" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_seccomp" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_seccomp_filter" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_seccomp_filter" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_security" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_security" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_security_dmesg_restrict" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_security_dmesg_restrict" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_security_writable_hooks" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_security_writable_hooks" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_security_yama" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_security_yama" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_slab_freelist_hardened" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_slab_freelist_hardened" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_slab_freelist_random" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_slab_freelist_random" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_slab_merge_default" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_slab_merge_default" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_slub_debug" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_slub_debug" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_stackprotector" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_stackprotector" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_stackprotector_strong" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_stackprotector_strong" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_strict_kernel_rwx" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_strict_kernel_rwx" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_strict_module_rwx" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_strict_module_rwx" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_syn_cookies" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_syn_cookies" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_unmap_kernel_at_el0" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_unmap_kernel_at_el0" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_vmap_stack" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_vmap_stack" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_x86_vsyscall_emulation" role="full" time="2026-03-20T16:40:00-05:00" severity="low" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_x86_vsyscall_emulation" role="full" time="2026-03-21T16:38:42-05:00" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_gcc_plugin_latent_entropy" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_gcc_plugin_latent_entropy" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_gcc_plugin_randstruct" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_gcc_plugin_randstruct" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_gcc_plugin_stackleak" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_gcc_plugin_stackleak" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_gcc_plugin_structleak" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_gcc_plugin_structleak" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_gcc_plugin_structleak_byref_all" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_kernel_config_gcc_plugin_structleak_byref_all" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_package_rsyslog-gnutls_installed" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_package_rsyslog-gnutls_installed" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_package_rsyslog_installed" role="full" time="2026-03-20T16:40:00-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_package_rsyslog_installed" role="full" time="2026-03-21T16:38:42-05:00" severity="medium" weight="1.000000">
       <result>pass</result>
       <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
         <check-content-ref name="oval:ssg-package_rsyslog_installed:def:1" href="ssg-debian13-oval.xml"/>
       </check>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_service_rsyslog_enabled" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_service_rsyslog_enabled" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>pass</result>
       <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
         <check-content-ref name="oval:ssg-service_rsyslog_enabled:def:1" href="ssg-debian13-oval.xml"/>
       </check>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_rsyslog_files_groupownership" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_rsyslog_files_groupownership" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>pass</result>
       <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
         <check-content-ref name="oval:ssg-rsyslog_files_groupownership:def:1" href="ssg-debian13-oval.xml"/>
       </check>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_rsyslog_files_ownership" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_rsyslog_files_ownership" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>pass</result>
       <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
         <check-content-ref name="oval:ssg-rsyslog_files_ownership:def:1" href="ssg-debian13-oval.xml"/>
       </check>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_rsyslog_files_permissions" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_rsyslog_files_permissions" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>pass</result>
       <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
         <check-content-ref name="oval:ssg-rsyslog_files_permissions:def:1" href="ssg-debian13-oval.xml"/>
       </check>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_package_logrotate_installed" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_package_logrotate_installed" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_ensure_logrotate_activated" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_ensure_logrotate_activated" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>pass</result>
       <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
         <check-content-ref name="oval:ssg-ensure_logrotate_activated:def:1" href="ssg-debian13-oval.xml"/>
       </check>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_timer_logrotate_enabled" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_timer_logrotate_enabled" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_rsyslog_remote_loghost" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_rsyslog_remote_loghost" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_rsyslog_remote_tls" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_rsyslog_remote_tls" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_rsyslog_remote_tls_cacert" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_rsyslog_remote_tls_cacert" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_directory_groupowner_etc_ipsecd" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_directory_groupowner_etc_ipsecd" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_directory_owner_etc_ipsecd" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_directory_owner_etc_ipsecd" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_directory_permissions_etc_ipsecd" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_directory_permissions_etc_ipsecd" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_groupowner_etc_ipsec_conf" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_groupowner_etc_ipsec_conf" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_groupowner_etc_ipsec_secrets" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_groupowner_etc_ipsec_secrets" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_owner_etc_ipsec_conf" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_owner_etc_ipsec_conf" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_owner_etc_ipsec_secrets" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_owner_etc_ipsec_secrets" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_permissions_etc_ipsec_conf" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_permissions_etc_ipsec_conf" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_permissions_etc_ipsec_secrets" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_permissions_etc_ipsec_secrets" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_directory_groupowner_etc_iptables" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_directory_groupowner_etc_iptables" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_directory_owner_etc_iptables" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_directory_owner_etc_iptables" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_directory_permissions_etc_iptables" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_directory_permissions_etc_iptables" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv6_conf_all_accept_ra_defrtr" role="full" time="2026-03-20T16:40:01-05:00" severity="unknown" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv6_conf_all_accept_ra_defrtr" role="full" time="2026-03-21T16:38:43-05:00" severity="unknown" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv6_conf_all_accept_ra_pinfo" role="full" time="2026-03-20T16:40:01-05:00" severity="unknown" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv6_conf_all_accept_ra_pinfo" role="full" time="2026-03-21T16:38:43-05:00" severity="unknown" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv6_conf_all_accept_ra_rtr_pref" role="full" time="2026-03-20T16:40:01-05:00" severity="unknown" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv6_conf_all_accept_ra_rtr_pref" role="full" time="2026-03-21T16:38:43-05:00" severity="unknown" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv6_conf_all_accept_redirects" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv6_conf_all_accept_redirects" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv6_conf_all_accept_source_route" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv6_conf_all_accept_source_route" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv6_conf_all_autoconf" role="full" time="2026-03-20T16:40:01-05:00" severity="unknown" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv6_conf_all_autoconf" role="full" time="2026-03-21T16:38:43-05:00" severity="unknown" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv6_conf_all_max_addresses" role="full" time="2026-03-20T16:40:01-05:00" severity="unknown" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv6_conf_all_max_addresses" role="full" time="2026-03-21T16:38:43-05:00" severity="unknown" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv6_conf_all_router_solicitations" role="full" time="2026-03-20T16:40:01-05:00" severity="unknown" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv6_conf_all_router_solicitations" role="full" time="2026-03-21T16:38:43-05:00" severity="unknown" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv6_conf_default_accept_ra_defrtr" role="full" time="2026-03-20T16:40:01-05:00" severity="unknown" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv6_conf_default_accept_ra_defrtr" role="full" time="2026-03-21T16:38:43-05:00" severity="unknown" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv6_conf_default_accept_ra_pinfo" role="full" time="2026-03-20T16:40:01-05:00" severity="unknown" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv6_conf_default_accept_ra_pinfo" role="full" time="2026-03-21T16:38:43-05:00" severity="unknown" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv6_conf_default_accept_ra_rtr_pref" role="full" time="2026-03-20T16:40:01-05:00" severity="unknown" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv6_conf_default_accept_ra_rtr_pref" role="full" time="2026-03-21T16:38:43-05:00" severity="unknown" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv6_conf_default_accept_redirects" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv6_conf_default_accept_redirects" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv6_conf_default_accept_source_route" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv6_conf_default_accept_source_route" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv6_conf_default_autoconf" role="full" time="2026-03-20T16:40:01-05:00" severity="unknown" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv6_conf_default_autoconf" role="full" time="2026-03-21T16:38:43-05:00" severity="unknown" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv6_conf_default_max_addresses" role="full" time="2026-03-20T16:40:01-05:00" severity="unknown" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv6_conf_default_max_addresses" role="full" time="2026-03-21T16:38:43-05:00" severity="unknown" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv6_conf_default_router_solicitations" role="full" time="2026-03-20T16:40:01-05:00" severity="unknown" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv6_conf_default_router_solicitations" role="full" time="2026-03-21T16:38:43-05:00" severity="unknown" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_all_accept_local" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_all_accept_local" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_all_accept_redirects" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_all_accept_redirects" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_all_accept_source_route" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_all_accept_source_route" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_all_arp_filter" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_all_arp_filter" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_all_arp_ignore" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_all_arp_ignore" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_all_drop_gratuitous_arp" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_all_drop_gratuitous_arp" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_all_route_localnet" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_all_route_localnet" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_all_rp_filter" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_all_rp_filter" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_all_secure_redirects" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_all_secure_redirects" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_all_shared_media" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_all_shared_media" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_default_accept_redirects" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_default_accept_redirects" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_default_accept_source_route" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_default_accept_source_route" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_default_rp_filter" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_default_rp_filter" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_default_secure_redirects" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_default_secure_redirects" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_default_shared_media" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_default_shared_media" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_icmp_ignore_bogus_error_responses" role="full" time="2026-03-20T16:40:01-05:00" severity="unknown" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_icmp_ignore_bogus_error_responses" role="full" time="2026-03-21T16:38:43-05:00" severity="unknown" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_ip_local_port_range" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_ip_local_port_range" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_tcp_rfc1337" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_tcp_rfc1337" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_tcp_syncookies" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_tcp_syncookies" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_all_send_redirects" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_all_send_redirects" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_default_send_redirects" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_default_send_redirects" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_ip_forward" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_ip_forward" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_directory_groupowner_etc_nftables" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_directory_groupowner_etc_nftables" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_directory_owner_etc_nftables" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_directory_owner_etc_nftables" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_directory_permissions_etc_nftables" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_directory_permissions_etc_nftables" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_dir_perms_world_writable_root_owned" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_dir_perms_world_writable_root_owned" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_dir_perms_world_writable_sticky_bits" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_dir_perms_world_writable_sticky_bits" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_dir_system_commands_group_root_owned" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_dir_system_commands_group_root_owned" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_dir_system_commands_root_owned" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_dir_system_commands_root_owned" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_groupowner_etc_crypttab" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_groupowner_etc_crypttab" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_groupowner_systemmap" role="full" time="2026-03-20T16:40:01-05:00" severity="low" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_groupowner_systemmap" role="full" time="2026-03-21T16:38:43-05:00" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_owner_etc_crypttab" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_owner_etc_crypttab" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_owner_systemmap" role="full" time="2026-03-20T16:40:01-05:00" severity="low" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_owner_systemmap" role="full" time="2026-03-21T16:38:43-05:00" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_permissions_etc_crypttab" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_permissions_etc_crypttab" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_permissions_systemmap" role="full" time="2026-03-20T16:40:01-05:00" severity="low" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_permissions_systemmap" role="full" time="2026-03-21T16:38:43-05:00" severity="low" weight="1.000000">
       <result>pass</result>
       <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
         <check-content-ref name="oval:ssg-file_permissions_systemmap:def:1" href="ssg-debian13-oval.xml"/>
       </check>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_permissions_unauthorized_world_writable" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_permissions_unauthorized_world_writable" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_permissions_ungroupowned" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_permissions_ungroupowned" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_no_files_unowned_by_user" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_no_files_unowned_by_user" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_fs_protected_fifos" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_fs_protected_fifos" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_fs_protected_hardlinks" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_fs_protected_hardlinks" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>pass</result>
       <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
         <check-content-ref name="oval:ssg-sysctl_fs_protected_hardlinks:def:1" href="ssg-debian13-oval.xml"/>
       </check>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_fs_protected_regular" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_fs_protected_regular" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_fs_protected_symlinks" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_fs_protected_symlinks" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>pass</result>
       <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
         <check-content-ref name="oval:ssg-sysctl_fs_protected_symlinks:def:1" href="ssg-debian13-oval.xml"/>
       </check>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_groupowner_etc_group" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_groupowner_etc_group" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>pass</result>
       <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
         <check-content-ref name="oval:ssg-file_groupowner_etc_group:def:1" href="ssg-debian13-oval.xml"/>
       </check>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_groupowner_etc_gshadow" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_groupowner_etc_gshadow" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>pass</result>
       <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
         <check-content-ref name="oval:ssg-file_groupowner_etc_gshadow:def:1" href="ssg-debian13-oval.xml"/>
       </check>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_groupowner_etc_passwd" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_groupowner_etc_passwd" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>pass</result>
       <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
         <check-content-ref name="oval:ssg-file_groupowner_etc_passwd:def:1" href="ssg-debian13-oval.xml"/>
       </check>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_groupowner_etc_shadow" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_groupowner_etc_shadow" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>pass</result>
       <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
         <check-content-ref name="oval:ssg-file_groupowner_etc_shadow:def:1" href="ssg-debian13-oval.xml"/>
       </check>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_groupowner_etc_shells" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_groupowner_etc_shells" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_owner_etc_group" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_owner_etc_group" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>pass</result>
       <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
         <check-content-ref name="oval:ssg-file_owner_etc_group:def:1" href="ssg-debian13-oval.xml"/>
       </check>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_owner_etc_gshadow" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_owner_etc_gshadow" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>pass</result>
       <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
         <check-content-ref name="oval:ssg-file_owner_etc_gshadow:def:1" href="ssg-debian13-oval.xml"/>
       </check>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_owner_etc_passwd" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_owner_etc_passwd" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>pass</result>
       <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
         <check-content-ref name="oval:ssg-file_owner_etc_passwd:def:1" href="ssg-debian13-oval.xml"/>
       </check>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_owner_etc_shadow" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_owner_etc_shadow" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>pass</result>
       <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
         <check-content-ref name="oval:ssg-file_owner_etc_shadow:def:1" href="ssg-debian13-oval.xml"/>
       </check>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_owner_etc_shells" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_owner_etc_shells" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_permissions_etc_group" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_permissions_etc_group" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>pass</result>
       <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
         <check-content-ref name="oval:ssg-file_permissions_etc_group:def:1" href="ssg-debian13-oval.xml"/>
       </check>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_permissions_etc_gshadow" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_permissions_etc_gshadow" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>pass</result>
       <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
         <check-content-ref name="oval:ssg-file_permissions_etc_gshadow:def:1" href="ssg-debian13-oval.xml"/>
       </check>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_permissions_etc_passwd" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_permissions_etc_passwd" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>pass</result>
       <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
         <check-content-ref name="oval:ssg-file_permissions_etc_passwd:def:1" href="ssg-debian13-oval.xml"/>
       </check>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_permissions_etc_shadow" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_permissions_etc_shadow" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>pass</result>
       <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
         <check-content-ref name="oval:ssg-file_permissions_etc_shadow:def:1" href="ssg-debian13-oval.xml"/>
       </check>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_permissions_etc_shells" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_permissions_etc_shells" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_directory_groupowner_etc_sysctld" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_directory_groupowner_etc_sysctld" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_directory_owner_etc_sysctld" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_directory_owner_etc_sysctld" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_directory_permissions_etc_sysctld" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_directory_permissions_etc_sysctld" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_groupownership_system_commands_dirs" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_groupownership_system_commands_dirs" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_ownership_binary_dirs" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_ownership_binary_dirs" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_permissions_binary_dirs" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_permissions_binary_dirs" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_mount_option_boot_noexec" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_mount_option_boot_noexec" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_mount_option_boot_nosuid" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_mount_option_boot_nosuid" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_mount_option_home_noexec" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_mount_option_home_noexec" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_mount_option_home_nosuid" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_mount_option_home_nosuid" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_mount_option_nodev_nonroot_local_partitions" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_mount_option_nodev_nonroot_local_partitions" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_mount_option_opt_nosuid" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_mount_option_opt_nosuid" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_mount_option_srv_nosuid" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_mount_option_srv_nosuid" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_mount_option_tmp_noexec" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_mount_option_tmp_noexec" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_mount_option_tmp_nosuid" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_mount_option_tmp_nosuid" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_mount_option_var_log_noexec" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_mount_option_var_log_noexec" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_mount_option_var_log_nosuid" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_mount_option_var_log_nosuid" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_mount_option_var_noexec" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_mount_option_var_noexec" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_mount_option_var_nosuid" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_mount_option_var_nosuid" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_mount_option_var_tmp_noexec" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_mount_option_var_tmp_noexec" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_mount_option_var_tmp_nosuid" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_mount_option_var_tmp_nosuid" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_kernel_dmesg_restrict" role="full" time="2026-03-20T16:40:01-05:00" severity="low" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_kernel_dmesg_restrict" role="full" time="2026-03-21T16:38:43-05:00" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_kernel_modules_disabled" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_kernel_modules_disabled" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_kernel_panic_on_oops" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_kernel_panic_on_oops" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_kernel_perf_cpu_time_max_percent" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_kernel_perf_cpu_time_max_percent" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_kernel_perf_event_max_sample_rate" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_kernel_perf_event_max_sample_rate" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_kernel_perf_event_paranoid" role="full" time="2026-03-20T16:40:01-05:00" severity="low" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_kernel_perf_event_paranoid" role="full" time="2026-03-21T16:38:43-05:00" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_kernel_pid_max" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_kernel_pid_max" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_kernel_sysrq" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_kernel_sysrq" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_kernel_unprivileged_bpf_disabled" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_kernel_unprivileged_bpf_disabled" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_kernel_yama_ptrace_scope" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_kernel_yama_ptrace_scope" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_core_bpf_jit_harden" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_net_core_bpf_jit_harden" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_vm_mmap_min_addr" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_vm_mmap_min_addr" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_fs_suid_dumpable" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_fs_suid_dumpable" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>pass</result>
       <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
         <check-content-ref name="oval:ssg-sysctl_fs_suid_dumpable:def:1" href="ssg-debian13-oval.xml"/>
       </check>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_kernel_kptr_restrict" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_kernel_kptr_restrict" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_kernel_randomize_va_space" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sysctl_kernel_randomize_va_space" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>pass</result>
       <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
         <check-content-ref name="oval:ssg-sysctl_kernel_randomize_va_space:def:1" href="ssg-debian13-oval.xml"/>
       </check>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_install_PAE_kernel_on_x86-32" role="full" time="2026-03-20T16:40:01-05:00" severity="unknown" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_install_PAE_kernel_on_x86-32" role="full" time="2026-03-21T16:38:43-05:00" severity="unknown" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_grub2_page_poison_argument" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_grub2_page_poison_argument" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_grub2_slub_debug_argument" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_grub2_slub_debug_argument" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_package_setroubleshoot-plugins_removed" role="full" time="2026-03-20T16:40:01-05:00" severity="low" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_package_setroubleshoot-plugins_removed" role="full" time="2026-03-21T16:38:43-05:00" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_package_setroubleshoot-server_removed" role="full" time="2026-03-20T16:40:01-05:00" severity="low" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_package_setroubleshoot-server_removed" role="full" time="2026-03-21T16:38:43-05:00" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_package_setroubleshoot_removed" role="full" time="2026-03-20T16:40:01-05:00" severity="low" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_package_setroubleshoot_removed" role="full" time="2026-03-21T16:38:43-05:00" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_directory_groupowner_etc_selinux" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_directory_groupowner_etc_selinux" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_directory_owner_etc_selinux" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_directory_owner_etc_selinux" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_directory_permissions_etc_selinux" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_directory_permissions_etc_selinux" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_groupowner_etc_sestatus_conf" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_groupowner_etc_sestatus_conf" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_owner_etc_sestatus_conf" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_owner_etc_sestatus_conf" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_permissions_etc_sestatus_conf" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_permissions_etc_sestatus_conf" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sebool_polyinstantiation_enabled" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sebool_polyinstantiation_enabled" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_package_cron_installed" role="full" time="2026-03-20T16:40:01-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_package_cron_installed" role="full" time="2026-03-21T16:38:43-05:00" severity="medium" weight="1.000000">
       <result>pass</result>
       <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
         <check-content-ref name="oval:ssg-package_cron_installed:def:1" href="ssg-debian13-oval.xml"/>
       </check>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_service_cron_enabled" role="full" time="2026-03-20T16:40:02-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_service_cron_enabled" role="full" time="2026-03-21T16:38:44-05:00" severity="medium" weight="1.000000">
       <result>pass</result>
       <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
         <check-content-ref name="oval:ssg-service_cron_enabled:def:1" href="ssg-debian13-oval.xml"/>
       </check>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_package_inetutils-telnetd_removed" role="full" time="2026-03-20T16:40:02-05:00" severity="high" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_package_inetutils-telnetd_removed" role="full" time="2026-03-21T16:38:44-05:00" severity="high" weight="1.000000">
       <result>pass</result>
       <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
         <check-content-ref name="oval:ssg-package_inetutils-telnetd_removed:def:1" href="ssg-debian13-oval.xml"/>
       </check>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_package_nis_removed" role="full" time="2026-03-20T16:40:02-05:00" severity="low" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_package_nis_removed" role="full" time="2026-03-21T16:38:44-05:00" severity="low" weight="1.000000">
       <result>pass</result>
       <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
         <check-content-ref name="oval:ssg-package_nis_removed:def:1" href="ssg-debian13-oval.xml"/>
       </check>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_package_ntpdate_removed" role="full" time="2026-03-20T16:40:02-05:00" severity="low" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_package_ntpdate_removed" role="full" time="2026-03-21T16:38:44-05:00" severity="low" weight="1.000000">
       <result>pass</result>
       <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
         <check-content-ref name="oval:ssg-package_ntpdate_removed:def:1" href="ssg-debian13-oval.xml"/>
       </check>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_package_telnetd-ssl_removed" role="full" time="2026-03-20T16:40:02-05:00" severity="high" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_package_telnetd-ssl_removed" role="full" time="2026-03-21T16:38:44-05:00" severity="high" weight="1.000000">
       <result>pass</result>
       <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
         <check-content-ref name="oval:ssg-package_telnetd-ssl_removed:def:1" href="ssg-debian13-oval.xml"/>
       </check>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_package_telnetd_removed" role="full" time="2026-03-20T16:40:02-05:00" severity="high" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_package_telnetd_removed" role="full" time="2026-03-21T16:38:44-05:00" severity="high" weight="1.000000">
       <result>pass</result>
       <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
         <check-content-ref name="oval:ssg-package_telnetd_removed:def:1" href="ssg-debian13-oval.xml"/>
       </check>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_package_dhcp_removed" role="full" time="2026-03-20T16:40:02-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_package_dhcp_removed" role="full" time="2026-03-21T16:38:44-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_package_kea_removed" role="full" time="2026-03-20T16:40:02-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_package_kea_removed" role="full" time="2026-03-21T16:38:44-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_package_sendmail_removed" role="full" time="2026-03-20T16:40:02-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_package_sendmail_removed" role="full" time="2026-03-21T16:38:44-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_postfix_client_configure_mail_alias" role="full" time="2026-03-20T16:40:02-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_postfix_client_configure_mail_alias" role="full" time="2026-03-21T16:38:44-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_postfix_network_listening_disabled" role="full" time="2026-03-20T16:40:02-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_postfix_network_listening_disabled" role="full" time="2026-03-21T16:38:44-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_package_chrony_installed" role="full" time="2026-03-20T16:40:02-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_package_chrony_installed" role="full" time="2026-03-21T16:38:44-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_package_ntp_installed" role="full" time="2026-03-20T16:40:02-05:00" severity="high" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_package_ntp_installed" role="full" time="2026-03-21T16:38:44-05:00" severity="high" weight="1.000000">
       <result>pass</result>
       <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
         <check-content-ref name="oval:ssg-package_ntp_installed:def:1" href="ssg-debian13-oval.xml"/>
       </check>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_service_chronyd_or_ntpd_enabled" role="full" time="2026-03-20T16:40:02-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_service_chronyd_or_ntpd_enabled" role="full" time="2026-03-21T16:38:44-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_service_ntp_enabled" role="full" time="2026-03-20T16:40:03-05:00" severity="high" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_service_ntp_enabled" role="full" time="2026-03-21T16:38:45-05:00" severity="high" weight="1.000000">
       <result>pass</result>
       <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
         <check-content-ref name="oval:ssg-service_ntp_enabled:def:1" href="ssg-debian13-oval.xml"/>
       </check>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_chronyd_specify_remote_server" role="full" time="2026-03-20T16:40:03-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_chronyd_specify_remote_server" role="full" time="2026-03-21T16:38:45-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_groupowner_etc_chrony_keys" role="full" time="2026-03-20T16:40:03-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_groupowner_etc_chrony_keys" role="full" time="2026-03-21T16:38:45-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_owner_etc_chrony_keys" role="full" time="2026-03-20T16:40:03-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_owner_etc_chrony_keys" role="full" time="2026-03-21T16:38:45-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_permissions_etc_chrony_keys" role="full" time="2026-03-20T16:40:03-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_permissions_etc_chrony_keys" role="full" time="2026-03-21T16:38:45-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_package_xinetd_removed" role="full" time="2026-03-20T16:40:03-05:00" severity="low" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_package_xinetd_removed" role="full" time="2026-03-21T16:38:45-05:00" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_package_ypbind_removed" role="full" time="2026-03-20T16:40:03-05:00" severity="unknown" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_package_ypbind_removed" role="full" time="2026-03-21T16:38:45-05:00" severity="unknown" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_package_ypserv_removed" role="full" time="2026-03-20T16:40:03-05:00" severity="high" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_package_ypserv_removed" role="full" time="2026-03-21T16:38:45-05:00" severity="high" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_package_rsh-server_removed" role="full" time="2026-03-20T16:40:03-05:00" severity="high" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_package_rsh-server_removed" role="full" time="2026-03-21T16:38:45-05:00" severity="high" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_package_rsh_removed" role="full" time="2026-03-20T16:40:03-05:00" severity="unknown" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_package_rsh_removed" role="full" time="2026-03-21T16:38:45-05:00" severity="unknown" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_package_talk-server_removed" role="full" time="2026-03-20T16:40:03-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_package_talk-server_removed" role="full" time="2026-03-21T16:38:45-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_package_talk_removed" role="full" time="2026-03-20T16:40:03-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_package_talk_removed" role="full" time="2026-03-21T16:38:45-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_package_telnet-server_removed" role="full" time="2026-03-20T16:40:03-05:00" severity="high" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_package_telnet-server_removed" role="full" time="2026-03-21T16:38:45-05:00" severity="high" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_package_telnet_removed" role="full" time="2026-03-20T16:40:03-05:00" severity="low" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_package_telnet_removed" role="full" time="2026-03-21T16:38:45-05:00" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_package_tftp-server_removed" role="full" time="2026-03-20T16:40:03-05:00" severity="high" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_package_tftp-server_removed" role="full" time="2026-03-21T16:38:45-05:00" severity="high" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_package_tftp_removed" role="full" time="2026-03-20T16:40:03-05:00" severity="low" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_package_tftp_removed" role="full" time="2026-03-21T16:38:45-05:00" severity="low" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_groupowner_sshd_config" role="full" time="2026-03-20T16:40:03-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_groupowner_sshd_config" role="full" time="2026-03-21T16:38:45-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_groupownership_sshd_private_key" role="full" time="2026-03-20T16:40:03-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_groupownership_sshd_private_key" role="full" time="2026-03-21T16:38:45-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_groupownership_sshd_pub_key" role="full" time="2026-03-20T16:40:03-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_groupownership_sshd_pub_key" role="full" time="2026-03-21T16:38:45-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_owner_sshd_config" role="full" time="2026-03-20T16:40:03-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_owner_sshd_config" role="full" time="2026-03-21T16:38:45-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_ownership_sshd_private_key" role="full" time="2026-03-20T16:40:03-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_ownership_sshd_private_key" role="full" time="2026-03-21T16:38:45-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_ownership_sshd_pub_key" role="full" time="2026-03-20T16:40:03-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_ownership_sshd_pub_key" role="full" time="2026-03-21T16:38:45-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_permissions_sshd_config" role="full" time="2026-03-20T16:40:03-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_permissions_sshd_config" role="full" time="2026-03-21T16:38:45-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_permissions_sshd_private_key" role="full" time="2026-03-20T16:40:03-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_permissions_sshd_private_key" role="full" time="2026-03-21T16:38:45-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_file_permissions_sshd_pub_key" role="full" time="2026-03-20T16:40:03-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_file_permissions_sshd_pub_key" role="full" time="2026-03-21T16:38:45-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sshd_set_keepalive" role="full" time="2026-03-20T16:40:03-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sshd_set_keepalive" role="full" time="2026-03-21T16:38:45-05:00" severity="medium" weight="1.000000">
       <result>pass</result>
       <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
         <check-export export-name="oval:ssg-var_sshd_set_keepalive:var:1" value-id="xccdf_org.ssgproject.content_value_var_sshd_set_keepalive"/>
@@ -90887,7 +90887,7 @@ fi
         <check-content-ref name="oval:ssg-sshd_set_keepalive:def:1" href="ssg-debian13-oval.xml"/>
       </check>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sshd_set_idle_timeout" role="full" time="2026-03-20T16:40:03-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sshd_set_idle_timeout" role="full" time="2026-03-21T16:38:45-05:00" severity="medium" weight="1.000000">
       <result>pass</result>
       <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
         <check-export export-name="oval:ssg-var_sshd_set_keepalive:var:1" value-id="xccdf_org.ssgproject.content_value_var_sshd_set_keepalive"/>
@@ -90896,208 +90896,208 @@ fi
         <check-content-ref name="oval:ssg-sshd_set_idle_timeout:def:1" href="ssg-debian13-oval.xml"/>
       </check>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sshd_allow_only_protocol2" role="full" time="2026-03-20T16:40:03-05:00" severity="high" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sshd_allow_only_protocol2" role="full" time="2026-03-21T16:38:45-05:00" severity="high" weight="1.000000">
       <result>pass</result>
       <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
         <check-export export-name="oval:ssg-sshd_required:var:1" value-id="xccdf_org.ssgproject.content_value_sshd_required"/>
         <check-content-ref name="oval:ssg-sshd_allow_only_protocol2:def:1" href="ssg-debian13-oval.xml"/>
       </check>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sshd_disable_empty_passwords" role="full" time="2026-03-20T16:40:03-05:00" severity="high" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sshd_disable_empty_passwords" role="full" time="2026-03-21T16:38:45-05:00" severity="high" weight="1.000000">
       <result>fail</result>
       <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
         <check-export export-name="oval:ssg-sshd_required:var:1" value-id="xccdf_org.ssgproject.content_value_sshd_required"/>
         <check-content-ref name="oval:ssg-sshd_disable_empty_passwords:def:1" href="ssg-debian13-oval.xml"/>
       </check>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sshd_disable_root_login" role="full" time="2026-03-20T16:40:03-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sshd_disable_root_login" role="full" time="2026-03-21T16:38:45-05:00" severity="medium" weight="1.000000">
       <result>fail</result>
       <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
         <check-export export-name="oval:ssg-sshd_required:var:1" value-id="xccdf_org.ssgproject.content_value_sshd_required"/>
         <check-content-ref name="oval:ssg-sshd_disable_root_login:def:1" href="ssg-debian13-oval.xml"/>
       </check>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_package_sssd_installed" role="full" time="2026-03-20T16:40:03-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_package_sssd_installed" role="full" time="2026-03-21T16:38:45-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_service_sssd_enabled" role="full" time="2026-03-20T16:40:03-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_service_sssd_enabled" role="full" time="2026-03-21T16:38:45-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sssd_enable_pam_services" role="full" time="2026-03-20T16:40:03-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sssd_enable_pam_services" role="full" time="2026-03-21T16:38:45-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sssd_ldap_configure_tls_reqcert" role="full" time="2026-03-20T16:40:03-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sssd_ldap_configure_tls_reqcert" role="full" time="2026-03-21T16:38:45-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_sssd_ldap_start_tls" role="full" time="2026-03-20T16:40:03-05:00" severity="high" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sssd_ldap_start_tls" role="full" time="2026-03-21T16:38:45-05:00" severity="high" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_package_audit_installed" role="full" time="2026-03-20T16:40:03-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_package_audit_installed" role="full" time="2026-03-21T16:38:45-05:00" severity="medium" weight="1.000000">
       <result>pass</result>
       <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
         <check-content-ref name="oval:ssg-package_audit_installed:def:1" href="ssg-debian13-oval.xml"/>
       </check>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_service_auditd_enabled" role="full" time="2026-03-20T16:40:04-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_service_auditd_enabled" role="full" time="2026-03-21T16:38:47-05:00" severity="medium" weight="1.000000">
       <result>pass</result>
       <check system="http://oval.mitre.org/XMLSchema/oval-definitions-5">
         <check-content-ref name="oval:ssg-service_auditd_enabled:def:1" href="ssg-debian13-oval.xml"/>
       </check>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_immutable" role="full" time="2026-03-20T16:40:04-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_immutable" role="full" time="2026-03-21T16:38:47-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_media_export" role="full" time="2026-03-20T16:40:04-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_media_export" role="full" time="2026-03-21T16:38:47-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_networkconfig_modification" role="full" time="2026-03-20T16:40:04-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_networkconfig_modification" role="full" time="2026-03-21T16:38:47-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_session_events_btmp" role="full" time="2026-03-20T16:40:04-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_session_events_btmp" role="full" time="2026-03-21T16:38:47-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_session_events_utmp" role="full" time="2026-03-20T16:40:04-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_session_events_utmp" role="full" time="2026-03-21T16:38:47-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_session_events_wtmp" role="full" time="2026-03-20T16:40:04-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_session_events_wtmp" role="full" time="2026-03-21T16:38:47-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_sysadmin_actions" role="full" time="2026-03-20T16:40:04-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_sysadmin_actions" role="full" time="2026-03-21T16:38:47-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_usergroup_modification_group" role="full" time="2026-03-20T16:40:04-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_usergroup_modification_group" role="full" time="2026-03-21T16:38:47-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_usergroup_modification_gshadow" role="full" time="2026-03-20T16:40:04-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_usergroup_modification_gshadow" role="full" time="2026-03-21T16:38:47-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_usergroup_modification_opasswd" role="full" time="2026-03-20T16:40:04-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_usergroup_modification_opasswd" role="full" time="2026-03-21T16:38:47-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_usergroup_modification_passwd" role="full" time="2026-03-20T16:40:04-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_usergroup_modification_passwd" role="full" time="2026-03-21T16:38:47-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_usergroup_modification_shadow" role="full" time="2026-03-20T16:40:04-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_usergroup_modification_shadow" role="full" time="2026-03-21T16:38:47-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_sudo_log_events" role="full" time="2026-03-20T16:40:04-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_sudo_log_events" role="full" time="2026-03-21T16:38:47-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_dac_modification_chmod" role="full" time="2026-03-20T16:40:04-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_dac_modification_chmod" role="full" time="2026-03-21T16:38:47-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_dac_modification_chown" role="full" time="2026-03-20T16:40:04-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_dac_modification_chown" role="full" time="2026-03-21T16:38:47-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_dac_modification_fchmod" role="full" time="2026-03-20T16:40:04-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_dac_modification_fchmod" role="full" time="2026-03-21T16:38:47-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_dac_modification_fchmodat" role="full" time="2026-03-20T16:40:04-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_dac_modification_fchmodat" role="full" time="2026-03-21T16:38:47-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_dac_modification_fchown" role="full" time="2026-03-20T16:40:04-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_dac_modification_fchown" role="full" time="2026-03-21T16:38:47-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_dac_modification_fchownat" role="full" time="2026-03-20T16:40:04-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_dac_modification_fchownat" role="full" time="2026-03-21T16:38:47-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_dac_modification_fremovexattr" role="full" time="2026-03-20T16:40:04-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_dac_modification_fremovexattr" role="full" time="2026-03-21T16:38:47-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_dac_modification_fsetxattr" role="full" time="2026-03-20T16:40:04-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_dac_modification_fsetxattr" role="full" time="2026-03-21T16:38:47-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_dac_modification_lchown" role="full" time="2026-03-20T16:40:04-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_dac_modification_lchown" role="full" time="2026-03-21T16:38:47-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_dac_modification_lremovexattr" role="full" time="2026-03-20T16:40:04-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_dac_modification_lremovexattr" role="full" time="2026-03-21T16:38:47-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_dac_modification_lsetxattr" role="full" time="2026-03-20T16:40:04-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_dac_modification_lsetxattr" role="full" time="2026-03-21T16:38:47-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_dac_modification_removexattr" role="full" time="2026-03-20T16:40:04-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_dac_modification_removexattr" role="full" time="2026-03-21T16:38:47-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_dac_modification_setxattr" role="full" time="2026-03-20T16:40:04-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_dac_modification_setxattr" role="full" time="2026-03-21T16:38:47-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_dac_modification_umount2" role="full" time="2026-03-20T16:40:04-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_dac_modification_umount2" role="full" time="2026-03-21T16:38:47-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_file_deletion_events_rename" role="full" time="2026-03-20T16:40:04-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_file_deletion_events_rename" role="full" time="2026-03-21T16:38:47-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_file_deletion_events_renameat" role="full" time="2026-03-20T16:40:04-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_file_deletion_events_renameat" role="full" time="2026-03-21T16:38:47-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_file_deletion_events_rmdir" role="full" time="2026-03-20T16:40:04-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_file_deletion_events_rmdir" role="full" time="2026-03-21T16:38:47-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_file_deletion_events_unlink" role="full" time="2026-03-20T16:40:04-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_file_deletion_events_unlink" role="full" time="2026-03-21T16:38:47-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_file_deletion_events_unlinkat" role="full" time="2026-03-20T16:40:04-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_file_deletion_events_unlinkat" role="full" time="2026-03-21T16:38:47-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_unsuccessful_file_modification_creat" role="full" time="2026-03-20T16:40:04-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_unsuccessful_file_modification_creat" role="full" time="2026-03-21T16:38:47-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_unsuccessful_file_modification_ftruncate" role="full" time="2026-03-20T16:40:04-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_unsuccessful_file_modification_ftruncate" role="full" time="2026-03-21T16:38:47-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_unsuccessful_file_modification_open" role="full" time="2026-03-20T16:40:04-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_unsuccessful_file_modification_open" role="full" time="2026-03-21T16:38:47-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_unsuccessful_file_modification_openat" role="full" time="2026-03-20T16:40:04-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_unsuccessful_file_modification_openat" role="full" time="2026-03-21T16:38:47-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_unsuccessful_file_modification_truncate" role="full" time="2026-03-20T16:40:04-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_unsuccessful_file_modification_truncate" role="full" time="2026-03-21T16:38:47-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_kernel_module_loading_delete" role="full" time="2026-03-20T16:40:04-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_kernel_module_loading_delete" role="full" time="2026-03-21T16:38:47-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_kernel_module_loading_finit" role="full" time="2026-03-20T16:40:04-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_kernel_module_loading_finit" role="full" time="2026-03-21T16:38:47-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_kernel_module_loading_init" role="full" time="2026-03-20T16:40:04-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_kernel_module_loading_init" role="full" time="2026-03-21T16:38:47-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_login_events_faillock" role="full" time="2026-03-20T16:40:04-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_login_events_faillock" role="full" time="2026-03-21T16:38:47-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_login_events_lastlog" role="full" time="2026-03-20T16:40:04-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_login_events_lastlog" role="full" time="2026-03-21T16:38:47-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_privileged_commands" role="full" time="2026-03-20T16:40:04-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_privileged_commands" role="full" time="2026-03-21T16:38:47-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_privileged_commands_insmod" role="full" time="2026-03-20T16:40:04-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_privileged_commands_insmod" role="full" time="2026-03-21T16:38:47-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_privileged_commands_kmod" role="full" time="2026-03-20T16:40:04-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_privileged_commands_kmod" role="full" time="2026-03-21T16:38:47-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_privileged_commands_modprobe" role="full" time="2026-03-20T16:40:04-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_privileged_commands_modprobe" role="full" time="2026-03-21T16:38:47-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_privileged_commands_rmmod" role="full" time="2026-03-20T16:40:04-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_privileged_commands_rmmod" role="full" time="2026-03-21T16:38:47-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_privileged_commands_sudo" role="full" time="2026-03-20T16:40:04-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_privileged_commands_sudo" role="full" time="2026-03-21T16:38:47-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_time_adjtimex" role="full" time="2026-03-20T16:40:04-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_time_adjtimex" role="full" time="2026-03-21T16:38:47-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_time_clock_settime" role="full" time="2026-03-20T16:40:04-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_time_clock_settime" role="full" time="2026-03-21T16:38:47-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_time_stime" role="full" time="2026-03-20T16:40:04-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_time_stime" role="full" time="2026-03-21T16:38:47-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
-    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_time_watch_localtime" role="full" time="2026-03-20T16:40:04-05:00" severity="medium" weight="1.000000">
+    <rule-result idref="xccdf_org.ssgproject.content_rule_audit_rules_time_watch_localtime" role="full" time="2026-03-21T16:38:47-05:00" severity="medium" weight="1.000000">
       <result>notselected</result>
     </rule-result>
     <score system="urn:xccdf:scoring:default" maximum="100.000000">87.777779</score>
